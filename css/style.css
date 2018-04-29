@@ -1,0 +1,65 @@
+/* Base Styles */
+
+h1,
+h2,
+h3,
+p,
+a,
+figcaption {
+    font-weight: 200;
+    letter-spacing: 0.5px;
+
+}
+
+h1,
+h2{
+    
+    color: #FFF;
+    direction: rtl;
+}
+.content h2{
+    color: #FFF;
+    direction: rtl;
+    font-size: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* Navbar */
+
+.navbar img {
+    height: 25px;
+    width: auto;
+}
+
+/* Header */
+
+.main-photo {
+    position: relative;
+    height: 85vh;
+    background: url(../img/main-photo.jpg) center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+header h2 {
+    margin-top: 0;
+}
+
+
+
